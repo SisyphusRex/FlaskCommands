@@ -1,3 +1,18 @@
 To Run the flask app on windows:
   flask --app main run
   go to http://127.0.0.1:5000/
+
+Get base.html
+  go to bootstrap examples
+  https://getbootstrap.com/docs/5.3/examples/
+  load example page
+  right click, view page source
+  copy all html code
+  paste in base.html
+Fix base.html
+  go through copied html, find all references to files 
+  remove scripts you do not need
+  put {% block title%}{%endblock title%} between title tags
+  replace code getting .css file with cdn
+  https://getbootstrap.com/
+  replace code getting .js file (usually at very bottom) from same page

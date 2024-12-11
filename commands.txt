@@ -1,5 +1,7 @@
 To Run the flask app on windows:
   flask --app main run
+OR
+  flask --app main run --debug
   go to http://127.0.0.1:5000/
 
 Get base.html
